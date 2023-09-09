@@ -44,6 +44,10 @@ body{
 
 
 /* header part css start here */
+.toggle{
+    display: none;
+}
+
 header{
     position: relative;
     position: sticky;
@@ -52,7 +56,7 @@ header{
 }
 
 .header{
-    width: 95vw;
+    width: 90vw;
     margin: auto;
     display: flex;
     align-items: center;
@@ -94,7 +98,6 @@ header{
     background: linear-gradient(rgb(199, 236, 255) 0px, rgb(249, 239, 255) 100%);
     padding: 100px 0;
     width: 100%;
-
 }
 
 .img{
@@ -106,7 +109,7 @@ header{
 .title{
     width: 50%;
     align-self: center;
-    font-size: 50px;
+    font-size: 60px;
     line-height: 72px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -120,7 +123,6 @@ header{
 
 .small{
     font-size: 70%;
-    display: block;
 }
 
 /* banner part css end here */
@@ -196,13 +198,15 @@ h4{
 .industry{
     width:70%;
     padding: 0 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
 }
-
 
 .icon{
     width: 25%;
-    float: left;
-    
 }
 
 .work{
@@ -216,6 +220,14 @@ h4{
     margin-top: 5px;
     padding: 0 12px;
     color: #050748;
+}
+
+.work-icon{
+    display: block;
+    height: 62px;
+    width: 62px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .w1{
@@ -268,13 +280,7 @@ h4{
 }
 
 
-.work-icon{
-    display: block;
-    height: 62px;
-    width: 62px;
-    margin: 0 auto;
-    text-align: center;
-}
+
 
 
 /* working-industry part css end here */
@@ -289,7 +295,7 @@ h4{
 }
 
 .foot{
-    width: 24%;
+    width: 33%;
     padding: 0 12px;
 }
 
@@ -308,8 +314,7 @@ h4{
 }
 
 .foot ul li{
-    padding-bottom: 15px;
-    line-height: 25px;
+    line-height: 30px;
     display: flex;
 }
 
