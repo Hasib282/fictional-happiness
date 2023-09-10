@@ -1,56 +1,100 @@
-@media screen and (max-width:768px) {
-    .container {
-        width: 90vw;
-        margin: 0 auto;
+@media screen and (max-width:1024px) {
+    /* banner part css end here */
+    .title{
+        font-size: 40px;
+        line-height: 52px;
     }
 
-    .parent {
-        display: flex;
+    h4{
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    /* banner part css end here */
+
+
+    /* about us  part css start here */ 
+    .heading p{
+        text-align: justify;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    /* about us  part css end here */ 
+
+
+
+    /* working-industry part css start here */
+    .working-industry{
+        padding: 80px 0;
+    }
+
+    .working-industry .parent{
         flex-direction: column;
-        gap: 40px;
+        align-items: center;
+    }
+
+    .head{
+        width: 80%;
+        text-align: center;
+    }
+     
+    .industry{
+        width:80%;
+    }
+
+    .icon{
+        width: 33.33%;
+    }
+
+
+
+    /* working-industry part css end here */
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .parent{
+        flex-direction: column;
+        gap: 10px;
     }
 
 
     /* header part css start*/
-    .toggle {
+    .navbar{
+        display: none;
+    }
+
+    .toggle{
         display: block;
     }
 
     .toggle i {
         font-size: 30px;
     }
-
-    .navbar {
-        display: none;
-    }
-
+    
+    
     /* header part css end*/
 
 
     /* Banner Part css start */
-    .banner {
+    .banner{
         padding: 40px 0;
     }
 
-    .img {
+    .title{
         width: 100%;
-        padding: 0 12px;
-    }
-
-    .title {
-        width: 100%;
-        font-size: 45px;
+        font-size: 40px;
         line-height: 50px;
         text-align: center;
     }
 
-    .large {
-        font-size: 120%;
-    }
-
-    .small {
-        font-size: 65%;
-    }
 
     /* Banner Part css end */
 
@@ -80,36 +124,16 @@
 
 
     /* working-industry part css start here */
-    .working-industry {
+    .working-industry{
         padding: 40px 0;
     }
 
-    .head {
-        width: 100%;
-        text-align: center;
+    .industry{
+        width:100%;
     }
 
-    .industry {
-        width: 100%;
-    }
-
-
-    .icon {
-        width: 30%;
-        height: auto;
-    }
-
-    .work {
-        margin: 10px;
-        padding: 30px 20px;
-        text-align: center;
-        border-radius: 8px 40px 8px 40px;
-    }
-
-    .work p {
-        margin-top: 5px;
-        padding: 0 12px;
-        color: #050748;
+    .icon{
+        width: 33.33%;
     }
 
 
@@ -136,3 +160,114 @@
 
 
 }
+
+@media screen and (max-width:560px) {
+    /* working-industry part css start here */
+    .working-industry{
+        padding: 40px 0;
+    }
+
+    .industry{
+        width:80%;
+    }
+
+    .icon{
+        width: 50%;
+    }
+
+    /* working-industry part css end here */
+
+}
+
+
+@media screen and (max-width:425px) {
+    
+    /* Banner Part css start */
+    .title{
+        width: 100%;
+        font-size: 35px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .industry{
+        width:100%;
+    }
+
+    /* Banner Part css end */
+
+
+    /* footer part css start here */
+    .foot{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .foot ul li a{
+        text-align: center;
+    }
+
+    /* footer part css end here */
+
+}
+
+
+
+@media screen and (max-width:375px) {
+    /* Aboutus Part css start */
+    h4{
+        font-size: 22px;
+    }
+
+    .heading span{
+        font-size: 12px;
+    }
+
+    .heading p{
+        font-size: 12px;
+    }
+
+
+    /* Aboutus Part css end */
+
+}
+
+
+/*//////////////////// For devices with Width 320px and lower  //////////////////////////////////////////*/
+@media screen and (max-width:320px) {
+    /* .container{
+        width: 80vh;
+    } */
+    /* Banner Part css start */
+    .banner{
+        padding: 20px 0;
+    }
+
+
+    .title{
+        width: 100%;
+        font-size: 25px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .large{
+        font-size: 100%;
+    }
+
+    .small{
+        font-size: 60%;
+    }
+
+
+    /* Banner Part css end */
+
+    
+
+}
+
+
+
