@@ -1,0 +1,53 @@
+@media screen and (max-width:768px) {
+    .parent{
+        flex-direction: column;
+    }
+    /* header part css start here */
+    .navbar{
+        display: none;
+    }
+
+    .toggle{
+        display: block;
+        line-height: 85px;
+        color: #0082C6;
+        font-size: 28px;
+    }
+
+    /* header part css end here */
+
+    /* aboutme part css start here */
+    .heading{
+        text-align: center;
+        font-size: 60px;
+        text-transform: uppercase;
+        color: white;
+        margin: 20px 0; 
+    }
+    
+    .image{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .image img{
+        width: auto;
+        
+    }
+    
+    
+    .about{
+        width: 100%;
+    }
+    
+    .about p{
+        text-align: justify;
+    }
+    
+    
+    h4{
+        margin-bottom: 10px;
+    }
+    /* aboutme part css end here */
+}
