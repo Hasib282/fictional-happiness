@@ -30,10 +30,6 @@
 
 
     /* aboutme part css start here */
-    .heading{
-        font-size: 45px;
-    }
-    
     .image{
         width: 100%;
         display: flex;
@@ -58,37 +54,23 @@
 }
 
 
-/* ////////////////// For the mobile device having maximum width 425px //////////////// */
-@media screen and (max-width:425px) {
+/* ////////////////// For the mobile device having maximum width 500px //////////////// */
+@media screen and (max-width:500px) {
     
     /* aboutme part css start here */
-    .heading{
-        font-size: 45px;
-        text-transform: uppercase;
-        color: white;
-        margin: 20px 0; 
-    }
-    
-    .image{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
+
+
     
     .image img{
         width: auto; 
         height: 190px;
     }
-    
-    
-    .about{
-        width: 100%;
-    }
-     
-    
+
     h4{
-        margin-bottom: 10px;
+        font-size: 18px;
     }
+    
+
     /* aboutme part css end here */
 }
 
@@ -106,21 +88,9 @@
         margin: 20px 0; 
     }
     
-    .image{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
+
     
 
     
-    
-    .about{
-        width: 100%;
-    }  
-    
-    h4{
-        margin-bottom: 10px;
-    }
     /* aboutme part css end here */
 }
