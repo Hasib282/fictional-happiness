@@ -1,25 +1,69 @@
+/* ////////////////// For the mobile device having maximum width 1024px //////////////// */
+@media screen and (max-width:1024px) {
+
+}
+
+
+/* ////////////////// For the mobile device having maximum width 768px //////////////// */
 @media screen and (max-width:768px) {
     .parent{
         flex-direction: column;
     }
+
     /* header part css start here */
     .navbar{
         display: none;
     }
 
+    .logo img{
+        width: 50px;
+    }
+
     .toggle{
         display: block;
-        line-height: 85px;
+        line-height: 75px;
         color: #0082C6;
         font-size: 28px;
     }
 
     /* header part css end here */
 
+
     /* aboutme part css start here */
     .heading{
+        font-size: 45px;
+    }
+    
+    .image{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .image img{
+        width: 50%;
+    }
+    
+    
+    .about{
+        width: 100%;
+    }
+     
+    
+    h4{
+        margin: 10px;
         text-align: center;
-        font-size: 60px;
+    }
+    /* aboutme part css end here */
+}
+
+
+/* ////////////////// For the mobile device having maximum width 425px //////////////// */
+@media screen and (max-width:425px) {
+    
+    /* aboutme part css start here */
+    .heading{
+        font-size: 45px;
         text-transform: uppercase;
         color: white;
         margin: 20px 0; 
@@ -32,19 +76,48 @@
     }
     
     .image img{
-        width: auto;
-        
+        width: auto; 
+        height: 190px;
     }
     
     
     .about{
         width: 100%;
     }
+     
     
-    .about p{
-        text-align: justify;
+    h4{
+        margin-bottom: 10px;
+    }
+    /* aboutme part css end here */
+}
+
+
+
+
+/* ////////////////// For the mobile device having maximum width 320px //////////////// */
+@media screen and (max-width:320px) {
+    /* aboutme part css start here */
+    .heading{
+        text-align: center;
+        font-size: 45px;
+        text-transform: uppercase;
+        color: white;
+        margin: 20px 0; 
     }
     
+    .image{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+
+    
+    
+    .about{
+        width: 100%;
+    }  
     
     h4{
         margin-bottom: 10px;
